@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario {
+    width: 30%;
+    padding: 0px 24px 32px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    font-family: "Open Sans", sans-serif;
+    border: 1px solid pink;
+    border-radius: 4px;
+}
+
+    .formulario .titulo{
+        font-size: 2em;
+        color: rgb(224, 106, 125);
+    }
+
+    .formulario div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .formulario button {
+        padding: 12px 12px;
+        width: 100%;
+        color: rgb(44, 44, 44);
+        background-color: pink;
+        border: 1px solid pink;
+        border-radius: 4px;
+        font-size: 0.9em;
+    }
+
+    .formulario button:hover {
+        color: rgb(236, 236, 236);
+        background-color: rgb(224, 106, 125);
+        border: 1px solid rgb(224, 106, 125);
+        cursor: pointer;
+    }
+
+        .formulario div label {
+            color: rgb(44, 44, 44);
+        }
+
+        .formulario div input{
+            height: 32px;
+            border: 1px solid pink;
+            border-radius: 4px;
+        }
+        .formulario div input:focus{
+            outline: 1px solid rgb(224, 106, 125);
+        }
