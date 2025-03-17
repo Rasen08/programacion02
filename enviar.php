@@ -10,4 +10,5 @@
     echo $_GET['nombre'];
     echo $_GET['apellido'];
     echo $_GET['email'];
+    echo $_GET['telefono'];
 ?>
